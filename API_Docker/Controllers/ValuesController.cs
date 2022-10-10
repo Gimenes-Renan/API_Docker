@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API_Docker.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
